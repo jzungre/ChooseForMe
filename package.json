@@ -1,0 +1,11 @@
+{
+  "name": "chooseforme",
+  "version": "1.0.0",
+  "description": "I can't relax during my rest time. Too many entertainment options. ChooseForMe internet!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Zungre",
+  "license": "MIT"
+}
