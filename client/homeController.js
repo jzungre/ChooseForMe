@@ -4,6 +4,7 @@ angular.module('ChooseForMe.home', [])
 
 	$scope.item;
 	$scope.list = [];
+	$scope.chosen;
 
 	$scope.submit = function($event){
 		
@@ -16,5 +17,14 @@ angular.module('ChooseForMe.home', [])
 
     return false;
 		// event.preventDefault()
+	}
+
+	$scope.choose = function(){
+		
+		$scope.chosen = undefined;
+		var rando = Math.floor((Math.random() * $scope.list.length -1) + 1)
+		console.log('rando!',rando);
+		$scope.chosen = $scope.list[rando];
+		
 	}
 })
